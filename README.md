@@ -2,7 +2,7 @@
 
 ## 작업 완료 현황
 
-- [ ] MAUI를 사용하여 플랫폼 간 앱 만들기
+- [x] MAUI를 사용하여 플랫폼 간 앱 만들기
 - [ ] XAML을 사용하여 MAUI 앱에서 UI 만들기
 - [ ] MAUI XAML 페이지에서 레이아웃 사용자 지정
 - [ ] 공유 리소스를 사용하여 일관된 MAUI XAML 페이지 디자인
@@ -25,12 +25,21 @@
 
 	MAUI에서 Visual Studio를 사용하여 플랫폼 간 앱을 만드는 방법을 알아봅니다.
 
-	이 모듈에서는 다음을 수행합니다.
-	- MAUI의 기본 아키텍처 알아보기
-	- MAUI 앱 만들기
-	- MAUI에서 지원하는 플랫폼에 대한 공유 UI 정의
-	- Visual Studio에서 MAUI 앱 배포
-	- 앱 내에서 전화 걸기
+### 요약
+.NET MAUI는 Windows, Android, macOS 및 iOS 장치에서 실행할 수 있는 플랫폼 간 앱을 만드는 방법을 제공합니다.
+
+이 모듈에서는 다음을 수행합니다.
+- MAUI의 기본 아키텍처를 배웠습니다.
+- MAUI 앱 생성
+- MAUI에서 지원하는 플랫폼에 대한 공유 UI 정의
+- Visual Studio에서 .NET MAUI 앱 배포
+- MAUI를 사용하여 플랫폼 API에 액세스
+
+Windows 및 Android에서 실행되는 .NET MAUI 앱을 빌드했습니다. 또한 .NET MAUI API를 사용하여 두 플랫폼 모두에서 전화 걸기 장치에 액세스했습니다. 이 앱은 소개에 정의된 요구 사항에 대한 개념 증명 역할을 합니다. 특히 다음과 같은 앱을 만들기 시작했습니다.
+
+- Windows, Android 및 기타 지원되는 장치에서 실행됩니다.
+- 개발 시간을 최소화합니다.
+- 전화 걸기에 액세스할 수 있습니다.
 ---
 
 2. [XAML을 사용하여 MAUI 앱에서 UI 만들기](https://docs.microsoft.com/ko-kr/learn/modules/create-user-interface-xaml)
