@@ -12,7 +12,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루�
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lesson2", "lesson2", "{C672DA8A-45A6-48B6-B70E-7267CFFE5B9E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notes", "mslearn-dotnetmaui-create-user-interface-xaml\exercise1\Notes\Notes.csproj", "{3D3EC85C-7663-4F33-BF7D-CF18AA2B7EC8}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D3EC85C-7663-4F33-BF7D-CF18AA2B7EC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D3EC85C-7663-4F33-BF7D-CF18AA2B7EC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D3EC85C-7663-4F33-BF7D-CF18AA2B7EC8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3D3EC85C-7663-4F33-BF7D-CF18AA2B7EC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D3EC85C-7663-4F33-BF7D-CF18AA2B7EC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D3EC85C-7663-4F33-BF7D-CF18AA2B7EC8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -27,6 +43,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3D3EC85C-7663-4F33-BF7D-CF18AA2B7EC8} = {C672DA8A-45A6-48B6-B70E-7267CFFE5B9E}
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{60CF4526-6DC8-4364-9DB3-60320E5A3C1F} = {CD755EC1-51FF-4EF4-9882-13DA5A7540D0}
