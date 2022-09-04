@@ -3,14 +3,33 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lesson1", "lesson1", "{CD755EC1-51FF-4EF4-9882-13DA5A7540D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phoneword", "Phoneword\Phoneword.csproj", "{60CF4526-6DC8-4364-9DB3-60320E5A3C1F}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{4D51CDF7-9A11-445F-A103-76794A1C5F01}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60CF4526-6DC8-4364-9DB3-60320E5A3C1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60CF4526-6DC8-4364-9DB3-60320E5A3C1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60CF4526-6DC8-4364-9DB3-60320E5A3C1F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{60CF4526-6DC8-4364-9DB3-60320E5A3C1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60CF4526-6DC8-4364-9DB3-60320E5A3C1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60CF4526-6DC8-4364-9DB3-60320E5A3C1F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{60CF4526-6DC8-4364-9DB3-60320E5A3C1F} = {CD755EC1-51FF-4EF4-9882-13DA5A7540D0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A9A678A5-0162-41C1-B544-8DDBA5C83FD7}
