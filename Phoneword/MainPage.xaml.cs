@@ -25,4 +25,16 @@ public partial class MainPage : ContentPage
 			CallButton.Text = "Call";
 		}
 	}
+
+	async void OnCall(object sender, EventArgs e)
+	{
+		if (await this.DisplayAlert(
+			"Dial a Number",
+			"Would you like to call " + translatedNumber + "?",
+			"Yes",
+			"No"))
+		{
+			// TODO: dial the phone
+		}
+	}
 }
